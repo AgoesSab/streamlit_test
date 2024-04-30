@@ -9,7 +9,7 @@ st.title ('Proyeksi Perubahan Iklim')
 
 
 data = pd.DataFrame({
-    'latitude':[6.1574],
+    'latitude':[-6.1574],
     'longitude':[106.8410]})
 st.map(data, zoom = 11)
 st.map(df, size=20, color='#0044ff')
